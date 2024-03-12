@@ -21,3 +21,137 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.box {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(206, 205, 205);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+}
+
+li {
+    flex-grow: 1;
+}
+
+.levy-sloupec {
+    flex-basis: 50%;
+    background-image: linear-gradient(to bottom,#06d7c1,#50cc49);
+    border-radius: 10px 0 0 10px;
+    flex-grow: 1;
+    position: relative;
+    padding: 30px;
+}
+
+.pravy-sloupec {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 30px;
+    position: relative;
+}
+
+.bota {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -80px;
+    margin-bottom: 5px;
+    
+}
+
+.zrychli {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+    line-height: 1.5;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.podminky {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    text-align: right;
+}
+
+.kategorie {
+    color: #959595;
+    margin-bottom: 0;
+}
+
+.popis {
+    padding: 30px 0;
+    margin: 0;
+    border-bottom: 2px #06d7c1 solid;
+}
+
+.kosik {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f15f42;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(218, 218, 218);
+}
+
+.vybrana {
+    color: #f15f42;
+    border-radius: 100%;
+    border: 1px #f15f42 solid;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+}
+
+
+
+
+
